@@ -1,10 +1,3 @@
 # Godot 4+ specific ignores
 .godot/
 export_presets.cfg
-# Godot 3 specific ignores (optional, for compatibility)
-#.import/
-# export_presets.cfg
-# imported resources are now stored in the .godot folder, but in Godot 3 they were in .import
-
-# Optional: ignore local build/export folder
-# build/
