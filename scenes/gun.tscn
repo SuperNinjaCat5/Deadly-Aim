@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://5wsoi03dl8cd"]
+
+[ext_resource type="Texture2D" uid="uid://deil0ymwngl5c" path="res://assets/gun.png" id="1_x77fm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x77fm"]
+size = Vector2(4, 7.23208)
+
+[node name="Gun" type="CharacterBody2D"]
+collision_layer = 2
+
+[node name="Hitbox" type="CollisionShape2D" parent="."]
+scale = Vector2(2, 3.042)
+shape = SubResource("RectangleShape2D_x77fm")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-1, 0)
+scale = Vector2(2, 2)
+texture = ExtResource("1_x77fm")
